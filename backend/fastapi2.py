@@ -5,7 +5,7 @@ from fastapi import FastAPI,  UploadFile, File, Form, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from PyPDF2 import PdfReader
 from langchain_core.documents import Document
-from research.text_only import get_text_only_response_llm
+from backend.src.text_only import get_text_only_response_llm
 
 # from res_sys import GovernanceAdvisor
 from embeddings_hf import get_llm, get_vector_store_hf, get_response_llm, relevance
