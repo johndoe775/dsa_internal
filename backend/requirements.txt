@@ -1,18 +1,14 @@
-
 # Core
-pandas
-streamlit
-requests
-certifi
-PyPDF2
-black
 python-dotenv
+pandas
+requests
 
-# Excel readers (needed by pandas.read_excel)
+# File Parsing
+PyPDF2
 openpyxl
 xlrd
 
-# LangChain ecosystem
+# LangChain + Vector DB
 langchain
 langchain-community
 langchain-text-splitters
@@ -20,19 +16,10 @@ langchain-openai
 faiss-cpu
 tiktoken
 
-# Azure SDKs
-azure-identity
-azure-storage-blob
-azure-core
-
-# OpenAI SDK (Azure)
+# Azure OpenAI Support
 openai
 
-# DuckDuckGo search helper
-ddgs
-
-#fast api
+# FastAPI
 fastapi
-uvicorn 
+uvicorn
 python-multipart
-#sentence-transformers
